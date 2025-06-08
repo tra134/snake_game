@@ -29,6 +29,10 @@ void Controller::HandleInput(bool& running, Snake& snake) {
 	}
 }
 
+void Controller::ChangeDirection(Snake& snake, Snake::Direction input, Snake::Direction opposite)
+{
+}
+
 void ChangeDirection(Snake& snake, Snake::Direction input, Snake::Direction opposite) {
 	if (snake.direction == opposite) snake.direction = input;
 	return;

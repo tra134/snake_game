@@ -19,8 +19,6 @@ void Snake::Update() {
 		UpdateBody(curr_head, prev_head);
 	}
 
-
-
 }
 
 void Snake::UpdateHead() {
