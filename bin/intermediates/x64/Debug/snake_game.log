@@ -1,0 +1,11 @@
+﻿  snake.cpp
+C:\Users\ASUS\source\repos\snake_game\snake_game\src\snake.h(10,9): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/snake.cpp')
+  
+C:\Users\ASUS\source\repos\snake_game\snake_game\src\snake.h(11,9): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/snake.cpp')
+  
+C:\Users\ASUS\source\repos\snake_game\snake_game\src\snake.cpp(41,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ASUS\source\repos\snake_game\snake_game\src\snake.cpp(42,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\ASUS\source\repos\snake_game\\bin\x64\Debug\snake_game.exe : fatal error LNK1120: 1 unresolved externals

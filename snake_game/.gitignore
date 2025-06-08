@@ -1,0 +1,30 @@
+# Ignore Visual Studio folder
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.vcxproj.user
+
+# Others
+*.cache
+*.ilk
+*.ipch
+*.tmp
+*.tlog
+*.vspscc
+*.vssscc
+*.ncb
