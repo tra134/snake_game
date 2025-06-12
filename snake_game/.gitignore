@@ -1,5 +1,15 @@
-# Ignore Visual Studio folder
+notepad .gitignore
+
 .vs/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.exe
+*.obj
+*.pdb
+
 
 # Build results
 [Dd]ebug/
@@ -13,6 +23,16 @@ build/
 *.pdb
 *.lib
 *.log
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.idb
+*.exe
+*.dll
+bin/
+out/
+
 
 # User-specific files
 *.user
@@ -28,3 +48,5 @@ build/
 *.vspscc
 *.vssscc
 *.ncb
+
+
